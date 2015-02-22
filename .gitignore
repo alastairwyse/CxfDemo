@@ -1,0 +1,12 @@
+# Documentation folder
+Documentation/
+
+# C# Exclusions
+*.suo
+C\#/CxfDemo.Containers/bin/
+C\#/CxfDemo.Containers/obj/
+C\#/CxfDemo/bin/
+C\#/CxfDemo/obj/
+
+# Java Exclusions
+Java/CxfDemo/bin/

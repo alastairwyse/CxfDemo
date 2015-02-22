@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+  <assembly>
+    <name>CxfDemo</name>
+  </assembly>
+  <members>
+    <member name="M:CxfDemo.IOraclePermissionGeneratorWebServiceAPI.AddUser(System.String)">
+      <summary>
+        Adds a user into the data layer.
+      </summary>
+      <param name="userIdentifier">A unique identifier for the user.</param>
+    </member>
+    <member name="M:CxfDemo.IOraclePermissionGeneratorWebServiceAPI.GetObjects(CxfDemo.AuthenticationContext,CxfDemo.TrackingData)">
+      <summary>
+        Returns a list of all defined Oracle objects.
+      </summary>
+      <param name="authenticationContext">The authentication context of the web service consumer or user.</param>
+      <param name="trackingInformation">Tracking information of the web service consumer or user.</param>
+      <returns>A list of all defined Oracle objects.</returns>
+    </member>
+    <member name="M:CxfDemo.IOraclePermissionGeneratorWebServiceAPI.ConvertToUpperCase(System.String)">
+      <summary>
+        Converts a string to upper case.
+      </summary>
+      <remarks>This simple method is included to provide and example of a web method accepting and returning primitive types.</remarks>
+      <param name="inputString">The string to convert.</param>
+      <returns>The string converted to upper case.</returns>
+    </member>
+  </members>
+</doc>
